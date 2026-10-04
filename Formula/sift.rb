@@ -1,26 +1,26 @@
 class Sift < Formula
   desc "Match music against MusicBrainz, tag it, and file it into a library"
   homepage "https://github.com/radiosilence/sift"
-  version "0.3.6"
+  version "0.4.0"
   license "MIT"
   on_macos do
     on_arm do
-      url "https://github.com/radiosilence/sift/releases/download/v0.3.6/sift-macos-arm64.tar.gz"
-      sha256 "c6ef88e6da622e4ae887a4326a5329d69d9f8cbbcacdf3a0de4c78ecae28bf1c"
+      url "https://github.com/radiosilence/sift/releases/download/v0.4.0/sift-macos-arm64.tar.gz"
+      sha256 "ab92ea933c89d05de970a547e50765ace1f2f039988c5ae37496132afd4b39b6"
     end
     on_intel do
-      url "https://github.com/radiosilence/sift/releases/download/v0.3.6/sift-macos-x86_64.tar.gz"
-      sha256 "dfa75b2de2a30d780b5fdb62f2e029c129e39843aed403f64b1b5c110b6fa86e"
+      url "https://github.com/radiosilence/sift/releases/download/v0.4.0/sift-macos-x86_64.tar.gz"
+      sha256 "7b908289894ba2c2cb2139f747e71119bae2f56f816c5757146f9a8cee050b76"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/radiosilence/sift/releases/download/v0.3.6/sift-linux-arm64.tar.gz"
-      sha256 "51f1148acc6fd61e3b9d5882645837b6f4ea69da75d2ba67b4502b3ae9cef809"
+      url "https://github.com/radiosilence/sift/releases/download/v0.4.0/sift-linux-arm64.tar.gz"
+      sha256 "d041404ef300e1d0f4671094f6e27f9f3764c7ab5ffed5fee3df64c3664032fe"
     end
     on_intel do
-      url "https://github.com/radiosilence/sift/releases/download/v0.3.6/sift-linux-x86_64.tar.gz"
-      sha256 "901387e06fe216f415b337bfad95cf2836839343d6fb1a9f6bdc29babf5fbe5c"
+      url "https://github.com/radiosilence/sift/releases/download/v0.4.0/sift-linux-x86_64.tar.gz"
+      sha256 "2f2a393ab4e26c30a68bc277c9a0d3df72df96e3ba5e606a59564deb72a224de"
     end
   end
   def install
